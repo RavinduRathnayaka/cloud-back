@@ -10,7 +10,7 @@ app.use(express.json());
 
 // Enable CORS for all routes
 app.use(cors({
-  origin: 'http://localhost:5173' // or use '*' for all origins in development
+  origin: 'https://gleaming-maamoul-ef8d61.netlify.app/' // or use '*' for all origins in development
 }));
 
 
